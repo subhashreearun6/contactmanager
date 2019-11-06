@@ -73,9 +73,9 @@ return (
       <h2 style={{background:"grey",textAlign:"center"}} >CONTACT MANAGER</h2>
     NAME<input className="form-control" type='text' id='t1' value={ name} onChange={newname} placeholder="type Name here..."></input>
     <br></br>
-    NUMBER:<input className="form-control" type="text" onChange={newnum} placeholder="type Number here..."></input>
+    NUMBER:<input className="form-control" type="number" onChange={newnum} placeholder="type Number here..."></input>
      <br></br>
-     G-MAIL:<input className="form-control" type="gmail" onChange={newgmail} placeholder="type Gmail here..."></input>
+     G-MAIL:<input className="form-control" type="email" onChange={newgmail} placeholder="type Gmail here..."></input>
      <span ><button className="btn btn-success btn-lg btn-block" onClick={handleSubmit}>Save Contact</button></span>
      </form>
      <table className="table table-dark table-bordered">
